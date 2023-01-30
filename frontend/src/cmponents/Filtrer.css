@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    font-family: 'poppins';
+}
+.filtrersection{
+    border : 2px solid #DBA39A;
+    border-radius: 5px;
+     margin: 0px 150px;
+     background-color: #F0DBDB;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 15px;
+     margin-bottom: 70px;
+
+}
+.first ,.second , .third , .forth {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+.filtrersection select {
+    width: 250px;
+    text-indent: 10px;
+    background-color: #F5EBE0;
+    border :none;
+    border-radius: 5px ;
+    height: 40px;
+} 
+#date{
+    width: 250px;
+    text-indent: 10px;
+    background-color: #F5EBE0;
+    border :none;
+    border-radius: 5px ;
+    height: 40px;
+}
+.filtrersection button{
+    background-color: #821C1C;
+    color: white;
+    border: none;
+    width :250px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin:11px 0px;
+    cursor: pointer;
+ }
+ .filtrersection option {
+    text-indent: 10px;
+    background-color: #F5EBE0;
+    
+}
+.first .wilaya{
+  margin-bottom:15px ;
+  margin-top:5px ;
+}
+.second .Categorie{
+    margin-bottom:15px ;
+    margin-top:5px ;
+}

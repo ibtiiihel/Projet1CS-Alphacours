@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    font-family: 'poppins';
+}
+.Annonce {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 280px ;
+    margin-top: 70px;
+    border : 2px solid #DBA39A;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: #F0DBDB;
+
+
+}
+.more {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    background-color:  #F0DBDB;
+
+}
+.more button {
+    border : none; 
+    color :#C63434;
+    background-color:  #F0DBDB;
+    font-size: 15px;
+    font-weight:500;
+    cursor: pointer;
+
+}
+#img2{
+   width :400px;
+   border-radius: 20px;
+   
+}
+.annonceInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px ;
+    
+}
+.announceteacher h3 , .announcelocation h5 {
+    text-indent: 20px;
+    margin-top: 10px;
+   
+}
+.announcelocation h5 {
+    color: #821C1C ;
+    margin-top: 10px;
+}
+
+.annoncedetails p {
+    margin-top: 10px;
+    text-indent: 30px;
+    text-align: justify;
+}
+.annoncedetails {
+    margin: 0px 20px;
+ 
+}

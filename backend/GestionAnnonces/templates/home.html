@@ -1,0 +1,9 @@
+<h1>ANNONCES</h1>
+
+<ul>
+{ % for annonce in object_list % }
+    <li>{{annonce.titre}} - {{annonce.Annonceur}}<br/>
+        {{annonce.theme}} -{{annonce.datePublication}}
+    </li>
+{ % endfor %}
+</ul>

@@ -1,0 +1,79 @@
+#full{
+    background-color: #F0DBDB;
+}
+.annoncedetails{
+    background-color: #FEFCF3;
+    display: flex;
+    flex-direction: column;
+    border : 2px solid #DBA39A;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 900px;
+    padding: 30px;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+}
+.section2 h4{
+    margin: 10px;
+}
+
+.subfirst , .subsecond {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.section3{
+    margin: 40px;
+    border:1px solid black ;
+    }
+
+.section4{
+     display: flex;
+     flex-direction: row;
+    }
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#imgde{
+    width :400px;
+    border-radius: 20px;
+}
+.pic {
+    display:flex ;
+    flex-direction: row;
+    margin: auto;
+
+}
+.pic .but1 {
+    display: flex;
+    align-items: center;
+    margin:  10px;
+    
+
+}
+.pic .but2{
+    display: flex;
+    align-items: center;
+    margin:  10px; 
+}
+.sub4second h2 ,h4 {
+    margin: 10px;
+}
+.sub4second h4 {
+    text-indent: 10px;
+}
